@@ -13,10 +13,10 @@ Repositorio del proyecto: https://github.com/franjgonzalez/torneo-esports-uml
 ## Diagramas UML
 
 ### Diagrama de Casos de Uso
-![Diagrama de casos de uso](diagrams/casos_uso.png)
+!(diagrams/casos-uso.png)
 
 ### Diagrama de Clases
-![Diagrama de clases](diagrams/diagrama_clases.png)
+!(diagrams/clases.png)
 
 ## Estructura del Proyecto
 ```
