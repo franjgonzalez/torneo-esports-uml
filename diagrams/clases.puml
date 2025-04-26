@@ -1,0 +1,55 @@
+@startuml
+
+package "Entidad" {
+    class Equipo {
+        -idEquipo : int
+        -nombreEquipo : String
+        -jugadores : List<Jugador>
+
+        +agregarJugador(jugador : Jugador) : void
+        +eliminarJugador() : void
+        +getNombre() : String
+        +getJugadores() : List<Jugador>
+    }
+
+    class Jugador {
+        -idJugador : int
+        -nombreJugador : String
+        -nickname : String
+
+        +getNombre() : String
+        +getNickname() : String
+    }
+
+    class Torneo {
+        -nombre : String
+        -equipos : List<Equipo>
+
+        +agregarEquipo(equipo : Equipo) : void
+        +getEquipos() : List<Equipo>
+        +eliminarEquipo() : void
+    }
+}
+
+package "Control" {
+    class GestorEquipos {
+        +registrarEquipo(nombre : String) : Equipo
+        +añadirJugadorAEquipo(equipo : Equipo, jugador : Jugador) : void
+        +consultarEquipos() : List<Equipo>
+    }
+}
+
+package "Interfaz" {
+    class VistaPrincipal {
+        +mostrarMenu() : void
+        +mostrarEquiposYJugadores(equipos : List<Equipo>) : void
+    }
+}
+
+Equipo "1" o-- "*" Jugador : contiene >
+Torneo "1" o-- "*" Equipo : contiene >
+GestorEquipos ..> Equipo : gestiona
+GestorEquipos ..> Jugador : gestiona
+VistaPrincipal ..> GestorEquipos : usa
+
+@enduml

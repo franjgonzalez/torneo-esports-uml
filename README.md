@@ -1,8 +1,8 @@
 # Sistema de Gestión de Torneos de eSports
 
 ## Autor
-### Nombre: Francisco José Juan González 
-### Perfil de GitHub: https://github.com/franjgonzalez
+Nombre: Francisco José Juan González 
+Perfil de GitHub: https://github.com/franjgonzalez
 
 ## Descripción del Proyecto
 Este proyecto implementa un sistema de gestión de torneos de eSports.
@@ -13,12 +13,10 @@ Repositorio del proyecto: https://github.com/franjgonzalez/torneo-esports-uml
 ## Diagramas UML
 
 ### Diagrama de Casos de Uso
-![Diagrama de casos de uso](diagrams/casos-uso.png)
-
+!(diagrams/casos-uso.png)
 
 ### Diagrama de Clases
-![Diagrama de clases](diagrams/clases.png)
-
+!(diagrams/clases.png)
 
 ## Estructura del Proyecto
 ```
@@ -30,8 +28,8 @@ torneo-esports-uml/
 │   │   ├── interfaz/
 │   │   ├── Main.java
 ├── diagrams/
-│   ├── casos-uso.puml
-│   ├── clases.puml
+│   ├── casos_uso.puml
+│   ├── diagrama_clases.puml
 ├── README.md
 ├── .gitignore
 ```
@@ -64,3 +62,4 @@ Se utilizan relaciones de agregación (`o--`) para representar que un equipo con
 
 ## Conclusiones
 Se ha practicado el modelado de sistemas utilizando UML, identificando actores, casos de uso, clases y sus relaciones. Es una buena tarea para practicar la elaboración de diagramas de clases utilizados en Programación Orientada a Objetos.
+
