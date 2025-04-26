@@ -29,9 +29,7 @@ torneo-esports-uml/
 │   │   ├── interfaz/
 │   │   ├── Main.java
 ├── diagrams/
-│   ├── casos-uso.puml
 │   ├── casos-uso.png
-│   ├── clases.puml
 │   ├── clases.png
 ├── README.md
 ├── .gitignore
@@ -65,4 +63,3 @@ Se utilizan relaciones de agregación (`o--`) para representar que un equipo con
 
 ## Conclusiones
 Se ha practicado el modelado de sistemas utilizando UML, identificando actores, casos de uso, clases y sus relaciones. Es una buena tarea para practicar la elaboración de diagramas de clases utilizados en Programación Orientada a Objetos.
-A destacar la alta dificultad a la hora de elaborar los archivos .puml.
