@@ -30,8 +30,8 @@ torneo-esports-uml/
 │   │   ├── interfaz/
 │   │   ├── Main.java
 ├── diagrams/
-│   ├── casos_uso.puml
-│   ├── diagrama_clases.puml
+│   ├── casos-uso.puml
+│   ├── clases.puml
 ├── README.md
 ├── .gitignore
 ```
