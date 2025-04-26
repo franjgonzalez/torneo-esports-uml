@@ -1,8 +1,8 @@
 # Sistema de Gestión de Torneos de eSports
 
 ## Autor
-!Nombre: Francisco José Juan González 
-!Perfil de GitHub: https://github.com/franjgonzalez
+### Nombre: Francisco José Juan González 
+### Perfil de GitHub: https://github.com/franjgonzalez
 
 ## Descripción del Proyecto
 Este proyecto implementa un sistema de gestión de torneos de eSports.
