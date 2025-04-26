@@ -37,7 +37,7 @@ torneo-esports-uml/
 ## Instalación y Ejecución
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu_usuario/torneo-esports-uml.git
+git clone https://github.com/franjgonzalez/torneo-esports-uml.git
 ```
 
 2. Compilar y ejecutar el proyecto:
