@@ -1,8 +1,8 @@
 # Sistema de Gestión de Torneos de eSports
 
 ## Autor
-Nombre: Francisco José Juan González 
-Perfil de GitHub: https://github.com/franjgonzalez
+### Nombre: Francisco José Juan González 
+### Perfil de GitHub: https://github.com/franjgonzalez
 
 ## Descripción del Proyecto
 Este proyecto implementa un sistema de gestión de torneos de eSports.
@@ -13,23 +13,26 @@ Repositorio del proyecto: https://github.com/franjgonzalez/torneo-esports-uml
 ## Diagramas UML
 
 ### Diagrama de Casos de Uso
-!(diagrams/casos-uso.png)
+![Diagrama de casos de uso](diagrams/casos-uso.png)
 
 ### Diagrama de Clases
-!(diagrams/clases.png)
+![Diagrama de clases](diagrams/clases.png)
+
 
 ## Estructura del Proyecto
 ```
 torneo-esports-uml/
 ├── src/
-│   ├── es/empresa/torneo/
+│   ├── empresaTorneo/
 │   │   ├── entidad/
 │   │   ├── control/
 │   │   ├── interfaz/
 │   │   ├── Main.java
 ├── diagrams/
-│   ├── casos_uso.puml
-│   ├── diagrama_clases.puml
+│   ├── casos-uso.puml
+│   ├── casos-uso.png
+│   ├── clases.puml
+│   ├── clases.png
 ├── README.md
 ├── .gitignore
 ```
@@ -37,14 +40,14 @@ torneo-esports-uml/
 ## Instalación y Ejecución
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu_usuario/torneo-esports-uml.git
+git clone https://github.com/franjgonzalez/torneo-esports-uml.git
 ```
 
 2. Compilar y ejecutar el proyecto:
 ```bash
 cd src
-javac es/empresa/torneo/Main.java
-java es.empresa.torneo.Main
+javac empresaTorneo/Main.java
+java empresaTorneo.Main
 ```
 
 ## Justificación del Diseño
